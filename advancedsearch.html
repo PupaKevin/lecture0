@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Advanced Search</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="nav-wrapper">
+    <div class="left-side">
+
+
+      <div class='nav-logo'>
+          <span class='nav-image-container'>
+              <img class='advanced-navbar-image' src="static/images/googlelogo_color_272x92dp.png" alt="Google logo return home">
+          </span>
+      </div>
+
+
+      </div> <!--End of left-Side Wrapper  -->
+     <div class="right-side">
+
+       <div class="nav-link-wrapper active-nav-link">
+         <a href="index.html">Home</a>
+       </div>
+
+     </div> <!--End of right-Side Wrapper  -->
+  </div> <!--End of nav-wrapper  -->
+  <h1 class="adv-header">Advanced Search</h1>
+  <div class="adv-header-bdr"> </div>
+
+ <div id="google-adv-search">
+  <form action="https://google.com/search">
+
+      <!-- Appearance. Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned. -->
+      <!-- Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query. -->
+<div class="advanced-list">
+      <div class="adv-item-left">
+        <span>Find pages with...</span>
+       </div>
+        <div class="adv-item-middle">
+          <span></span>
+        </div>
+        <div class="adv-item-right">
+          <span>To do this in the search box</span>
+        </div>
+
+
+      <div class="adv-item-left"> <span>all these words</span> </div>
+        <div class="adv-item-middle"> <input type="text" id='all-words' name="as_q"></div>
+        <div class="adv-item-right"><span>Type the important words: <code>tri-color rat terrier</code></span></div>
+
+        <div class="adv-item-left"> <span>This exact word or phase</span> </div>
+          <div class="adv-item-middle"> <input type="text" id='exact-words' name="as_epq"></div>
+          <div class="adv-item-right"><span>Put exact words in quotes:  "rat terrier"</span></div>
+
+          <div class="adv-item-left"> <span>Any of these words</span> </div>
+          <div class="adv-item-middle"><input type="text" id='any-words' name="as_oq"> </div>
+            <div class="adv-item-right"><span> Type OR between all the words you want:  miniature OR standard </span></div>
+
+
+      <div class="adv-item-left"> <span>None of these words</span> </div>
+      <div class="adv-item-middle"><input type="text" id='none-words' name="as_eq"> </div>
+      <div class="adv-item-right"><span> Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</span></div>
+
+
+      <button type="submit" background-color="blue" value="Google Advanced Search">Google Advanced Search</button>
+</div>
+  </form>
+</div>
+</div> <!--End of container  -->
+</body>
+
+</html>

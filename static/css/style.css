@@ -1,0 +1,240 @@
+
+  @media (min-width: 600px) {
+    body {
+      background-color: white;
+    }
+
+  }
+  @media (max-width: 599px) {
+    body {
+      background-color: grey;
+    }
+
+  }
+
+
+
+body html {
+  font-family: "lobster", sans-serif;
+   background-color: #ccffff;
+  height: 100%
+
+
+}
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr;
+
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+
+.right-side {
+  display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid red;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-logo {
+  padding: 15px 0px 10px 15px;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid red;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+
+.content-wrapper{
+  width: 80%
+  background-image: url('static/images/hosting-business-event.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.content-wrapper img {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+
+}
+
+.img-text-wrapper {
+  width: 80%;
+ position: relative;
+ margin-top: -40%;
+ }
+
+.img-text-wrapper main-subtitle {
+    text-align: center;
+    color: red;
+    font-size: 10vw;
+    font-family: 'lobster', cursive;
+}
+
+.events-hello {
+  margin: 20% 4% 5% 10%;
+}
+
+
+.adv-header {
+  margin-left: 10px;
+  color: #d93025;
+}
+.adv-header-bdr {
+  border-bottom: 1px solid orange;
+  background-color: red;
+}
+
+.google-search  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* --background-color: white;
+    width: 20px;
+    height: 200px;
+    padding-left: 30%;
+  padding-right: 40%;
+    padding-top: 20px;
+    margin: auto;
+    align-content: center; */
+}
+#google-adv-search  {
+  display: grid;
+
+}
+.advanced-list {
+  width: 100%;
+  display: grid;
+  align-items: left-Side;
+  justify-content: left-Side;
+  background-color: white;
+  padding: 20px;
+   grid-column-gap: 20px;
+   grid-row-gap: 10px;
+   grid-template-columns: 33% auto 33%;
+}
+.adv-item-left {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.adv-item-middle {
+  background-color: white;
+  border-color: red;
+  font-size: 20px;
+  padding: auto;
+  text-align: left;
+
+}
+.adv-item-right {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+input > advsubmit {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  background-color: green;
+}
+
+#gsearchbar {
+border-radius: 25px 50px;
+ background: #73AD21;
+ padding: 20px;
+ margin:20px 20px;
+ width: 200px;
+ height: 150px;
+}
+
+#images {
+  margin-left: 55%;
+  margin-bottom: 20px;
+}
+.logosearch {
+  font-family: cursive;
+  padding: 1% 1% 1% 1%;
+  font-weight: bold;
+  text-align: center;
+}
+
+input > submit {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  background-color: green;
+}
+input:hover {
+  background-color: orange;
+}
+
+/* Flexbox */
+#flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flexcontainer > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px
+}
+
+#grid {
+	display: grid;
+	background-color: green;
+	padding: 20px;
+	 grid-column-gap: 20px;
+	 grid-row-gap: 10px;
+     grid-template-columns: 100px 200px auto;
+}
+
+.grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
