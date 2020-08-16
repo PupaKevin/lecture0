@@ -1,9 +1,87 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title> My Webpage!</title>
-  </head>
-  <body>
-    Hello Again Pupa, this is the world.  
-  </body> 
-</html> 
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title> Local events..</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="events.html">events</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="News.html">News!</a>
+        </div>
+      </div>
+      <!--End of left-Side Wrapper -->
+      <div class="right-side">
+        <div class="brand">
+          What's Going On ?
+        </div>
+      </div>
+    </div>
+    <!--End of nav-wrapper -->
+
+    <div class="content-wrapper">
+      <div class="img-text-wrapper">
+        <div class="main-subtitle">Time Magazine in 2016.</div>
+      </div>
+    </div>
+
+
+
+
+    <form action="/filter-events">
+      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+      <label><input type="radio" name="Day-Night" checked> Day</label>
+      <label><input type="radio" name="Day-Night"> Night</label><br>
+      <label><input type="checkbox" name="DayOfWeek" checked> Weekend</label>
+      <label><input type="checkbox" name="DayOfWeek"> Weekday</label>
+      <label><input type="checkbox" name="DayOfWeek"> Random</label><br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="events-hello">
+      <table>
+        <tr>
+          <th>Types of Events</th>
+          <th>Location</th>
+          <th>Day Of week</th>
+        </tr>
+        <tr>
+          <td>Indoor</td>
+          <td>Washington</td>
+          <td>1789-1797</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Adams</td>
+          <td>1797-1801</td>
+        </tr>
+        <tr>
+          <td>Thomas</td>
+          <td>Jefferson</td>
+          <td>1801-1809</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</body>

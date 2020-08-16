@@ -123,6 +123,10 @@ body html {
   background-color: red;
 }
 
+.indexbuttons {
+  margin: 20px;
+}
+
 .google-search  {
   display: flex;
   align-items: center;
