@@ -229,7 +229,7 @@ input > submit {
   background-color: green;
 }
 input:hover {
-  background-color: grey;
+  background-color: transparent;
 }
 
 /* Flexbox */
